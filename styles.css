@@ -1,19 +1,27 @@
 .container {
-  width: 80%;
+  width: 100%;
   margin: auto;
   justify-content: center;
+}
+
+body {
+  background-color: rgb(211, 238, 237);
+}
+
+.btn-container {
+  margin-bottom: 1rem;
 }
 
 .single-card {
   display: flex;
   position: relative;
-  width: 60%;
+  width: 300px;
   height: 400px;
   margin: 20px;
   transform-style: preserve-3d;
-  transition: all 0.1s ease;
+  transition: all 0.06s ease;
   justify-content: space-evenly;
-  background-color: lightgray;
+  background-color: white;
 }
 
 .flip-card {
@@ -40,56 +48,56 @@
 
 .wind1 {
   background-image: url(images/wind-1.png);
-  background-size: 240px;
+  background-size: 70%;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .wind2 {
   background-image: url(images/wind-2.png);
-  background-size: 240px;
+  background-size: 70%;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .wind3 {
   background-image: url(images/wind-3.png);
-  background-size: 240px;
+  background-size: 70%;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .wind4 {
   background-image: url(images/wind-4.png);
-  background-size: 280px;
+  background-size: 70%;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .animal1 {
   background-image: url(images/charlie.png);
-  background-size: 280px;
+  background-size: 80%;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .animal2 {
   background-image: url(images/chicken.png);
-  background-size: 280px;
+  background-size: 80%;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .animal3 {
   background-image: url(images/cat.png);
-  background-size: 280px;
+  background-size: 70%;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .animal4 {
   background-image: url(images/caterpillar.png);
-  background-size: 240px;
+  background-size: 50%;
   background-repeat: no-repeat;
   background-position: center;
 }
