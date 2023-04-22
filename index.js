@@ -9,8 +9,8 @@ var option = "wind";
 var cardsBack = document.querySelectorAll(".card-back");
 function setUp() {
   // Randomising winds
-  resetCardBack();
   resetCard();
+  resetCardBack();
   assgPics();
 }
 
@@ -93,4 +93,3 @@ function resetCardBack() {
     }
   }
 }
-
