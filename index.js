@@ -1,5 +1,5 @@
 // Initialise
-// document.addEventListener("DOMContentLoaded", setUp);
+document.addEventListener("DOMContentLoaded", setUp);
 
 // Create starting elements
 var num_array = [1, 2, 3, 4];
