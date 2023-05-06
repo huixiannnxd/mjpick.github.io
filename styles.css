@@ -1,7 +1,7 @@
 .container-tile {
   width: 310px;
   height: 60%;
-  margin: auto;
+  margin: auto auto 20px;
   justify-content: center;
 }
 
@@ -24,7 +24,7 @@ body {
   height: 50%;
   margin-left: 0px;
   margin-right: 0px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   overflow: hidden;
 }
 
@@ -43,7 +43,6 @@ body {
   margin: 0px;
   transform-style: preserve-3d;
   transition: all 0.06s ease;
-  overflow: hidden;
   background-color: white;
 }
 
