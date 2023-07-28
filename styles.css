@@ -97,14 +97,14 @@ body {
 }
 
 .animal1 {
-  background-image: url(images/charlie.png);
+  background-image: url(images/rat.png);
   background-size: 80%;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .animal2 {
-  background-image: url(images/chicken-leg.png);
+  background-image: url(images/hen.png);
   background-size: 80%;
   background-repeat: no-repeat;
   background-position: center;
